@@ -1,0 +1,10 @@
+src-git packages https://git.openwrt.org/feed/packages.git^e6330a6
+src-git routing https://git.openwrt.org/feed/routing.git^7c7d11e
+src-git telephony https://git.openwrt.org/feed/telephony.git^0183c1a
+src-git kenzo https://github.com/kenzok8/openwrt-packages^c437539
+src-git small https://github.com/kenzok8/small^264e08c
+src-link ipq807x ../../feeds/ipq807x
+src-link wifi_ax ../../feeds/wifi-ax
+src-git gl_feeds https://github.com/gl-inet/gl-feeds.git^af1f48d
+src-git luci https://github.com/openwrt/luci.git^701ea947fc
+src-link glinet ../feeds_dir/glinet
