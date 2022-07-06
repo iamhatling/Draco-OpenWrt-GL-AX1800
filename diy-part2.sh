@@ -88,11 +88,6 @@ rm -rf syncthing
 svn co https://github.com/openwrt/packages/trunk/utils/syncthing
 popd
 
-# 修改 banner 文件（banner 文件在根目录）
-pushd package/base-files/files/etc
-rm -rf ./banner && cp -a ${GITHUB_WORKSPACE}/banner .
-popd
-
 # ttyd 自动登录
 sed -i "s?/bin/login?/usr/libexec/login.sh?g" ${GITHUB_WORKSPACE}/openwrt/package/feeds/packages/ttyd/files/ttyd.config
 
