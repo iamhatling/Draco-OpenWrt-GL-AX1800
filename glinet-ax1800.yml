@@ -12,6 +12,8 @@ feeds:
     uri: https://github.com/openwrt/luci.git
   - name: gl_feeds
     uri: https://github.com/gl-inet/gl-feeds.git
+  - name: Lienol
+    uri: https://github.com/Lienol/openwrt-package
   - name: kenzok8
     uri: https://github.com/kenzok8/openwrt-packages.git
   - name: small8
