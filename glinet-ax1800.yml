@@ -30,6 +30,7 @@ packages:
   - luci-app-smartdns
   - luci-app-ttyd
   - luci-app-xlnetacc
+  - luci-theme-argon
   - ddns-scripts
   - ddns-scripts-services
   - adguardhome
