@@ -13,9 +13,9 @@ feeds:
   - name: gl_feeds
     uri: https://github.com/gl-inet/gl-feeds.git
   - name: kenzok8
-    uri: https://github.com/kenzok8/openwrt-packages
+    uri: https://github.com/kenzok8/openwrt-packages.git
   - name: small8
-    uri: https://github.com/kenzok8/small
+    uri: https://github.com/kenzok8/small.git
 include:
   - wifi-ax
 
@@ -24,9 +24,12 @@ packages:
   - wpad-openssl
   - wget-ssl
   - luci-app-adguardhome
+  - luci-app-ddns
+  - luci-app-filebrowser
   - luci-app-openclash
   - luci-app-smartdns
-  - luci-app-ddns
+  - luci-app-ttyd
+  - luci-app-xlnetacc
   - ddns-scripts
   - ddns-scripts-services
   - adguardhome
@@ -43,6 +46,8 @@ packages:
   - luci
   - luci-base
   - luci-mod-rpc
+  - kmod-tun
+  - kmod-inet-diag
   - kmod-usb-storage
   - kmod-usb-uhci
   - comgt
